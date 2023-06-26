@@ -1,0 +1,109 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: rgb(97, 130, 238);
+    color: white;
+    background: linear-gradient(rgb(0, 0, 124), rgb(9, 130, 238), pink);
+    
+}
+h1, h2, h4, p{
+    text-shadow: 0px 0px 1px black;
+}
+h2, h4 {
+    background: #9464e2;
+}
+.header{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.wave-img {
+ 
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.age{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 6px;
+    padding-right: 6px;;
+    border: 1px;
+    border-radius: 4px;
+    margin: 5px 0 10px 0;
+}
+
+.date{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 6px;
+    padding-right: 6px;;
+    border: 1px;
+    border-radius: 4px;
+    margin: 5px 0 10px 0;
+}
+
+
+.gift-section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+    background-color: rgb(97, 130, 238);; 
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    width: 400px;
+    height: 400px;
+    background-image: url(https://media.istockphoto.com/id/1289951310/photo/gift-card-with-tied-bow.jpg?s=612x612&w=0&k=20&c=UC2uBzl0Ice3j0rTD21iJyKYi5UY0-aZUYuo0PExY2I=);
+    background-size: cover;
+    border: 6px solid white;
+    border-radius: 10px;
+
+}
+#gift-img-happy:hover{
+    background-image: url(https://gifdb.com/images/high/happy-anime-boy-smiling-gmyxmcvze1eaa5f3.gif);
+    width: 700px;
+}
+#gift-img-feelings:hover{
+    background-image: url(https://thumbs.gfycat.com/HollowSnappyCrustacean-size_restricted.gif);
+    width: 600px;
+    
+}
+#gift-img-tears:hover{
+    background-image: url(https://reactiongifs.me/wp-content/uploads/2022/11/Pikachu-Crying-PokA%C2%A9mon.gif);
+    width: 700px;
+    
+}
+.note{
+    
+    display: flex;
+   
+    
+    
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
